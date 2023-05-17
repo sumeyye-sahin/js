@@ -82,3 +82,15 @@ const languages = [
   
   const setOfLanguages = new Set(languages)
   console.log(setOfLanguages)
+
+  /* the result : (unique values)
+  0: "English"
+  1: "Finnish"
+  2: "French"
+  3: "Spanish"*/
+
+
+  //----------------------
+
+  //difference between objects and map is that you can give any value type to keys 
+  let students = new Map();
